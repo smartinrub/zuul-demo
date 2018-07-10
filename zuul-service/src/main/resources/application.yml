@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    members:
+      path: /member/**
+      url: http://localhost:8090/member-service/member
